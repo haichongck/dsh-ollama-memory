@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Ollama Vector Memory",
+    "description": "Two-tier long-term memory: a core memory file injected into the system prompt every turn, plus a local vector store (Ollama embeddings). Structured kinds, save de-duplication, capacity governance (archive on overflow), supersede semantics, artifact fingerprint staleness detection, and weighted retrieval (similarity x time decay x kind weight). Retrieval degrades to keyword matching when embeddings are unavailable."
+  }
+}
