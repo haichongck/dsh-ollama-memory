@@ -1,0 +1,5 @@
+# dsh-ollama-memory bundle patch —— 把本插件作为一行插入 dsh profile。
+- insert:
+    - id: dsh-ollama-memory
+      name: dsh-ollama-memory
+      config: {}
